@@ -1,0 +1,16 @@
+let people = [
+  { name: "Micheal Whalen", age: 24, gender: "Male", race: "White", exes: 0 },
+  { name: "David Luu", age: 21, gender: "Male", race: "Asian", exes: 0 },
+  { name: "Travis Liu", age: 22, gender: "Male", race: "Asian", exes: 0 },
+  { name: "Tiffiany", age: 19, gender: "Female", race: "Asian", exes: 0 },
+  { name: "Travis", age: 25, gender: "Male", race: "Asian", exes: 0 },
+  { name: "Erica", age: 20, gender: "Female", race: "Asian", exes: 0 },
+  { name: "Terrance", age: 23, gender: "Male", race: "Asian", exes: 0 },
+  { name: "Kevin", age: 26, gender: "Male", race: "Asian", exes: 0 },
+  { name: "Rerick", age: 18, gender: "Male", race: "White", exes: 0 },
+  { name: "Aang", age: 18, gender: "Male", race: "Asian", exes: 0 },
+  { name: "Eric", age: 20, gender: "Male", race: "Asian", exes: 0 },
+  { name: "Henry", age: 25, gender: "Male", race: "Asian", exes: 0 },
+  { name: "Jennifer", age: 22, gender: "Female", race: "Asian", exes: 0 },
+  { name: "Serena", age: 21, gender: "Female", race: "Asian", exes: 0 },
+];
