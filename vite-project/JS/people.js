@@ -1,5 +1,4 @@
 let people = [
-  { name: "Micheal Whalen", age: 30, gender: "Male", race: "White", exes: 1 },
   { name: "David Luu", age: 25, gender: "Male", race: "Asian", exes: 10 },
   { name: "Travis Liu", age: 22, gender: "Male", race: "Asian", exes: 23 },
   { name: "Tiffiany", age: 19, gender: "Female", race: "Asian", exes: 15 },
@@ -14,3 +13,4 @@ let people = [
   { name: "Jennifer", age: 22, gender: "Female", race: "Asian", exes: 3 },
   { name: "Serena", age: 21, gender: "Female", race: "Asian", exes: 18 },
 ];
+export { people };
