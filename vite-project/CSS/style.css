@@ -11,7 +11,7 @@ html, body {
 
 h1 {
   text-align: center;
-  margin-bottom: auto;
+  margin: 0;
   font: bold;
   color: white;
   font-size: var(--h1-font-size);
@@ -19,19 +19,33 @@ h1 {
 
 h2 {
   font-size: var(--h2-font-size);
+  color: white;
+  padding: 0;
+  margin: 0;
 }
 
 h3 {
   font-size: var(--h3-font-size);
+  color: white;
+  padding: 0;
+  margin: 0;
 }
 
 h4 {
   font-size: var(--h4-font-size);
+  color: white;
+  padding: 0;
+  margin: 0;
 }
 
 h5 {
   font-size: var(--h5-font-size);
+  color: white;
+  padding: 0;
+  margin: 0;
 }
+
+
 
 .block {
   background-color: var(--primary);
@@ -56,7 +70,7 @@ h5 {
   
 }
 
-.container, .card-container {
+#container, #card-container {
   display: flex;
   flex-direction: row;
   align-items: center;

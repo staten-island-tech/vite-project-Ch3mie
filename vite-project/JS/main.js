@@ -2,23 +2,37 @@ import "../CSS/style.css";
 import { people } from "./people.js";
 import { DOMSelectors } from "./dom.js";
 
-function white() {
+function allcards() {
+  people.forEach((person) => {
+    DOMSelectors.container.insertAdjacentHTML(
+      "beforeend",
+      `
+  
+          <div class="card">
+          <h2>${person.name}</h2>
+          <h4>${person.age}, ${person.race}</h4>
+          <h4>${person.gender}, ${person.exes}</h4>
+          <img class="imagesize" src="${person.image}" alt="e" />
+          </div>     `
+    );
+  });
+}
+
+function asian() {
   DOMSelectors.form.addEventListener("submit", function (event) {
     event.preventDefault();
     people.forEach((person) => {
-      if (person.race == "White") {
+      if (person.race == "Asian") {
         DOMSelectors.container.insertAdjacentHTML(
           "beforeend",
           `
-            <div class="card">
-                <h1>${person.name}</h1>
-                <img><img>
-                <h1>${person.race}</h1>
-                <h1>${person.age}</h1>
-                <h1>${person.gender}</h1>
-                <h1>${person.exes}</h1>
-                <img src="${person.image}"></img>
-            </div>
+        <div class="card">
+        <h2>${person.name}</h2>
+        <h4>${person.age}, ${person.race}</h4>
+        <h4>${person.gender}, ${person.exes}</h4>
+        <img class="imagesize" src="${person.image}" alt="e" />
+        </div>
+
             `
         );
       }
@@ -26,4 +40,6 @@ function white() {
   });
 }
 
-white();
+allcards();
+
+asian();
