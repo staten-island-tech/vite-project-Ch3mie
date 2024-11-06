@@ -11,7 +11,7 @@ function allcards() {
           <div class="card">
           <h2>${person.name}</h2>
           <h4>${person.age}, ${person.race}</h4>
-          <h4>${person.gender}, ${person.exes}</h4>
+          <h4>${person.gender} | exes: ${person.exes}</h4>
           <img class="imagesize" src="${person.image}" alt="e" />
           </div>     `
     );
@@ -29,7 +29,7 @@ function asian() {
         <div class="card">
         <h2>${person.name}</h2>
         <h4>${person.age}, ${person.race}</h4>
-        <h4>${person.gender}, ${person.exes}</h4>
+        <h4>${person.gender}| exes: ${person.exes}</h4>
         <img class="imagesize" src="${person.image}" alt="e" />
         </div>
 

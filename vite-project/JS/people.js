@@ -65,10 +65,10 @@ let people = [
   },
   {
     name: "Aang",
-    age: 18,
+    age: 12,
     gender: "Male",
     race: "Asian",
-    exes: 8,
+    exes: 923,
     image: "images/Aang.jpg",
   },
   {
