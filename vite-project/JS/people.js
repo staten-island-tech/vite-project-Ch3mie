@@ -24,12 +24,12 @@ let people = [
     image: "images/Tiffiany.jpg",
   },
   {
-    name: "Travis",
+    name: "Travis Tam",
     age: 25,
     gender: "Male",
     race: "Asian",
     exes: 7,
-    image: "images/Travis Liu.jpg",
+    image: "images/Travis Tam.jpg",
   },
   {
     name: "Erica",
@@ -102,6 +102,14 @@ let people = [
     race: "Asian",
     exes: 18,
     image: "images/Serena.jpg",
+  },
+  {
+    name: "Not Dylan Jiang",
+    age: 15,
+    gender: "Male",
+    race: "Asian",
+    exes: -2,
+    image: "images/Dylan.jpeg",
   },
 ];
 
