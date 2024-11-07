@@ -22,7 +22,7 @@ function asian() {
   DOMSelectors.form.addEventListener("submit", function (event) {
     event.preventDefault();
     people.forEach((person) => {
-      if (person.race == "Asian") {
+      if (person.race == "White") {
         DOMSelectors.container.insertAdjacentHTML(
           "beforeend",
           `
@@ -40,6 +40,7 @@ function asian() {
   });
 }
 
+function reset() {}
 allcards();
 
 asian();
