@@ -6,5 +6,6 @@ const DOMSelectors = {
   card: document.querySelector(".card"),
   malebutton: document.querySelector("#male-button"),
   femalebutton: document.querySelector("#female-button"),
+  exesbutton: document.querySelector("#exes-button"),
 };
 export { DOMSelectors };

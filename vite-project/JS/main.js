@@ -5,7 +5,7 @@ import { DOMSelectors } from "./dom.js";
 const asianbtn = document.querySelector(".Asian-btn");
 const malebtn = DOMSelectors.malebutton;
 const femalebtn = DOMSelectors.femalebutton;
-
+const exesbtn = DOMSelectors.exesbutton;
 function injectHTML(person) {
   DOMSelectors.container.insertAdjacentHTML(
     "beforeend",
@@ -24,7 +24,6 @@ function displayPeople(filteredPeople) {
   reset();
   filteredPeople.forEach((person) => injectHTML(person));
 }
-function hightolowex() {}
 
 function reset() {
   DOMSelectors.container.innerHTML = "";
@@ -48,6 +47,11 @@ function main() {
     event.preventDefault();
     const female = people.filter((person) => person.gender === "Female");
     displayPeople(female);
+  });
+  exesbtn.addEventListener("click", (event) => {
+    event.preventDefault();
+    const exes = people.sort((a, b) => b.exes - a.exes);
+    displayPeople(exes);
   });
 }
 
