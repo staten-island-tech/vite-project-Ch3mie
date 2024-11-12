@@ -1,12 +1,13 @@
 @import "variables.css";
 
-html, body {
+html {
   margin: 0;
   padding: 0%;
   display: flex;
   place-items: center;
   background-color: var(--primary);
   font: white 1.2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -70,7 +71,7 @@ h5 {
   
 }
 
-#container, #card-container {
+.container, #card-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -81,4 +82,14 @@ h5 {
 .imagesize {
   width: 80%;
   height: 70%;
+}
+
+button {
+  width: 90px;
+  height: 40px;
+  background-color: var(--thirdary);
+  font-size: var(--h5-font-size);
+  border-color: #ffff;
+  border-radius: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }

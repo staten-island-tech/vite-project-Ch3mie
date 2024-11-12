@@ -7,5 +7,6 @@ const DOMSelectors = {
   malebutton: document.querySelector("#male-button"),
   femalebutton: document.querySelector("#female-button"),
   exesbutton: document.querySelector("#exes-button"),
+  themebutton: document.getElementById("themebtn"),
 };
 export { DOMSelectors };

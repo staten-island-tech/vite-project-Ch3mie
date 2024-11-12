@@ -2,10 +2,12 @@ import "../CSS/style.css";
 import { people } from "./people.js";
 import { DOMSelectors } from "./dom.js";
 
-const asianbtn = document.querySelector(".Asian-btn");
+const asianbtn = document.querySelector("#asian-button");
 const malebtn = DOMSelectors.malebutton;
 const femalebtn = DOMSelectors.femalebutton;
 const exesbtn = DOMSelectors.exesbutton;
+const themebutton = DOMSelectors.themebutton;
+
 function injectHTML(person) {
   DOMSelectors.container.insertAdjacentHTML(
     "beforeend",
@@ -52,6 +54,16 @@ function main() {
     event.preventDefault();
     const exes = people.sort((a, b) => b.exes - a.exes);
     displayPeople(exes);
+  });
+  theme.addEventListener("click", (event) => {
+    event.preventDefault();
+    if (document.body.classList.contains("cool")) {
+      document.body.classList.add("warm");
+      document.body.classList.remove("cool");
+    } else {
+      document.body.classList.add("cool");
+      document.body.classList.remove("warm");
+    }
   });
 }
 
