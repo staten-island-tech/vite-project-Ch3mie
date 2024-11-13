@@ -79,7 +79,7 @@ body.cool{
   justify-content: space-evenly;
   text-align: center;
   box-shadow: 10px 5px 5px var(--thirdary);
-  transition: 0.2s;
+  transition: 0.3s;
   
 }
 
@@ -96,6 +96,12 @@ body.cool{
   height: 70%;
 }
 
+.card:hover {
+  transform: scale(1) translateY(-10px);
+  transition: 0.5s;
+}
+
+
 button {
   width: 90px;
   height: 40px;
@@ -105,3 +111,20 @@ button {
   border-radius: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+@media screen and (max-width: 800px) {
+  .card {
+      width: 40%;
+      
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+      flex-direction: column;
+  }
+      .card {
+          width: 90%;
+          margin: 0.5rem; 
+      }
+  }
