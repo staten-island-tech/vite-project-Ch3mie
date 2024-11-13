@@ -55,7 +55,7 @@ function main() {
     const exes = people.sort((a, b) => b.exes - a.exes);
     displayPeople(exes);
   });
-  theme.addEventListener("click", (event) => {
+  themebutton.addEventListener("click", (event) => {
     event.preventDefault();
     if (document.body.classList.contains("cool")) {
       document.body.classList.add("warm");

@@ -9,6 +9,9 @@ html {
   font: white 1.2rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+body{
+  background-color: var(--primary);
+}
 
 h1 {
   text-align: center;
@@ -46,7 +49,16 @@ h5 {
   margin: 0;
 }
 
-
+body.warm {
+  --primary: var(--dark-beige);
+  --secondary: var(--darker-brown);
+  --thirdary: var(--dark-jade);
+}
+body.cool{
+  --primary: var(--beige);
+  --secondary: var(--dark-brown);
+  --thirdary: var(--jade);
+}
 
 .block {
   background-color: var(--primary);
