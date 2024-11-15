@@ -67,7 +67,7 @@ body.cool{
   background-color: var(--secondary);
   place-items: center;
   margin-bottom: auto;
-  border-radius: 30px;
+  border-radius: 25px;
   font-size: 2.3rem;
   
 }
