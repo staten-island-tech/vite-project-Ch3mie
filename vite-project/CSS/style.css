@@ -6,7 +6,7 @@ html {
   display: flex;
   place-items: center;
   background-color: var(--primary);
-  font: white 1.2rem;
+  font: 1.2rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
@@ -17,42 +17,44 @@ h1 {
   text-align: center;
   margin: 0;
   font: bold;
-  color: white;
+  color: var(--white);
   font-size: var(--h1-font-size);
 }
 
 h2 {
   font-size: var(--h2-font-size);
-  color: white;
+  color: var(--white);
   padding: 0;
   margin: 0;
 }
 
 h3 {
   font-size: var(--h3-font-size);
-  color: white;
+  color: var(--white);
   padding: 0;
   margin: 0;
 }
 
 h4 {
   font-size: var(--h4-font-size);
-  color: white;
+  color: var(--white);
   padding: 0;
   margin: 0;
 }
 
 h5 {
   font-size: var(--h5-font-size);
-  color: white;
+  color: var(--white);
   padding: 0;
   margin: 0;
 }
+
 
 body.warm {
   --primary: var(--dark-beige);
   --secondary: var(--darker-brown);
   --thirdary: var(--dark-jade);
+  --buttoncolor: var(--white)
 }
 body.cool{
   --primary: var(--beige);
@@ -110,6 +112,7 @@ button {
   border-color: #ffff;
   border-radius: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font: var(--buttoncolor);
 }
 
 @media screen and (max-width: 800px) {
