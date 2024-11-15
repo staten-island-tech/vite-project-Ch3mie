@@ -107,7 +107,8 @@ button {
   width: 90px;
   height: 40px;
   background-color: var(--thirdary);
-  font-size: var(--h5-font-size) var(--white);
+  font-size: var(--h5-font-size);
+  color: var(--white);
   border-color: #ffff;
   border-radius: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
