@@ -68,6 +68,7 @@ body.cool{
   place-items: center;
   margin-bottom: auto;
   border-radius: 30px;
+  
 }
 
 .card {
@@ -98,7 +99,7 @@ body.cool{
 .imagesize {
   width: 80%;
   height: 70%;
-}
+}s
 
 .card:hover {
   transform: scale(1) translateY(-10px);
