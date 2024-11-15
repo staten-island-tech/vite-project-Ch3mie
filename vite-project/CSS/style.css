@@ -6,7 +6,7 @@ html {
   display: flex;
   place-items: center;
   background-color: var(--primary);
-  font: 1.2rem;
+  font: white 1.2rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
@@ -54,13 +54,11 @@ body.warm {
   --primary: var(--dark-beige);
   --secondary: var(--darker-brown);
   --thirdary: var(--dark-jade);
-  --buttoncolor: var(--white)
 }
 body.cool{
   --primary: var(--beige);
   --secondary: var(--dark-brown);
   --thirdary: var(--jade);
-  --buttoncolor: var(--black);
 }
 
 .block {
@@ -109,11 +107,10 @@ button {
   width: 90px;
   height: 40px;
   background-color: var(--thirdary);
-  font-size: var(--h5-font-size) var(--buttoncolor);
+  font-size: var(--h5-font-size) var(--white);
   border-color: #ffff;
   border-radius: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
 @media screen and (max-width: 800px) {
