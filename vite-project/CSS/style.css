@@ -54,11 +54,13 @@ body.warm {
   --primary: var(--dark-beige);
   --secondary: var(--darker-brown);
   --thirdary: var(--dark-jade);
+  --buttoncolor: var(--white);
 }
 body.cool{
   --primary: var(--beige);
   --secondary: var(--dark-brown);
   --thirdary: var(--jade);
+  --buttoncolor:var(--black);
 }
 
 .block {
@@ -108,7 +110,7 @@ button {
   height: 40px;
   background-color: var(--thirdary);
   font-size: var(--h5-font-size);
-  color: var(--white);
+  color: var(--buttoncolor);
   border-color: #ffff;
   border-radius: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
