@@ -108,11 +108,11 @@ button {
   width: 90px;
   height: 40px;
   background-color: var(--thirdary);
-  font-size: var(--h5-font-size);
+  font-size: var(--h5-font-size), var(--buttoncolor);
   border-color: #ffff;
   border-radius: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font: var(--buttoncolor);
+
 }
 
 @media screen and (max-width: 800px) {
