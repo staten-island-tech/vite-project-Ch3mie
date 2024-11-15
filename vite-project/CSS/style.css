@@ -67,6 +67,7 @@ body.cool{
   background-color: var(--secondary);
   place-items: center;
   margin-bottom: auto;
+  border-radius: 30px;
 }
 
 .card {
