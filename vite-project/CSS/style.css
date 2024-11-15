@@ -60,6 +60,7 @@ body.cool{
   --primary: var(--beige);
   --secondary: var(--dark-brown);
   --thirdary: var(--jade);
+  --buttoncolor: var(--black);
 }
 
 .block {
